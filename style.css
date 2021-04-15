@@ -1,0 +1,80 @@
+header
+{
+    background-image: url("../ecf2/storefront/media/plates-header.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;  /*pour aligner le carré noire  */
+    flex-direction: column;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: white;
+}
+nav ul
+{
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+header div
+{
+    width: 50%;
+    margin: auto;
+    background-color: #393935;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    /* Tout ce qui concerne le carré noire */
+}
+header div h1
+{
+    margin-top: 70px;
+    margin-bottom:10px;
+    height: 50px;
+    border-bottom: solid grey 2px;
+    /* Le ptit trait gris en dessous de plates */
+    
+}
+header div p 
+{
+margin-top: 0;
+width: 90%;
+}
+section
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 20px;
+    margin: auto;
+    width: 640px;
+}
+section article
+{
+    width:200px;
+    margin-top: 50px;
+    text-align: center;
+}
+section article img
+{
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* cover = pour aligner correctement les photos */
+}
+.modele
+{
+    font-weight: bold;
+}
